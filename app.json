@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/logs/logs",
+    "pages/load/load",
+    "pages/mine/mine",
+    "pages/kaoqin/kaoqin"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#9ad3de",
+    "navigationBarTitleText": "擒蝶",
+    "navigationBarTextStyle":"black"
+  },
+      "tabBar": {
+        "color": "#a9b7b7",
+        "selectedColor": "#000000",
+        "borderStyle": "white",
+        "list": [
+          {
+            "selectedIconPath": "images/wifi.png",
+            "iconPath": "images/wifi.png",
+            "pagePath": "pages/index/index",
+            "text": "首页"
+          },
+          {
+            "selectedIconPath": "images/key.png",
+            "iconPath": "images/key.png",
+            "pagePath": "pages/kaoqin/kaoqin",
+            "text": "开始考勤"
+          },
+          {
+            "selectedIconPath": "images/清单.png",
+            "iconPath": "images/清单.png",
+            "pagePath": "pages/detail/detail",
+            "text": "考勤情况"
+          },
+          {
+            "selectedIconPath": "images/用户.png",
+            "iconPath": "images/用户.png",
+            "pagePath": "pages/mine/mine",
+            "text": "我的"
+          }
+        ]
+      }
+  
+}
